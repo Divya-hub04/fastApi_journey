@@ -1,0 +1,5 @@
+{
+    "image": "mcr.microsoft.com",
+    "onCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+    "postCreateCommand": "uv sync"
+}
